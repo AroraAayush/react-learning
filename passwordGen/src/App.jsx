@@ -50,13 +50,14 @@ function App() {
 useEffect(()=>{
 passwordGenerate()
 },[charactersAllowed,numbersAllowed,length])
+
   return (
     <>
       <div className="max-w-xl  mx-auto shadow-md rounded-lg px-4 py-3 my-8 bg-gray-700 text-orange-500">
         <h3 className='text-center mb-4 font-bold text-2xl'>Password Generator</h3>
         <div className='flex rounded-md bg-white overflow-hidden mb-4'>
           <input type="text" value={password} ref={passRef}readOnly className='px-4 py-2 w-full rounded-tl-md rounded-bl-md border-none font-semibold'/>
-          <button className={copied? 'bg-sky-200 text-black px-4 py-2 shrink-1 rounded-tr-md rounded-br-md': 'bg-sky-400 text-black px-4 py-2 shrink-1 rounded-tr-md rounded-br-md'}  disabled={copied?true : false} onClick={copyPasswordToClipBoard} > {copied? "copied" : "copy"}</button>
+          <button className={`text-black px-4 py-2 shrink-1 rounded-tr-md rounded-br-md ${copied?'bg-sky-200': 'bg-sky-500'}`}  disabled={copied?true : false} onClick={copyPasswordToClipBoard} > {copied? "copied" : "copy"}</button>
           </div>  
           <div className='flex rounded-md overflow-hidden mb-4 gap-x-5 text-base'>
           <div className='flex items-center gap-x-2'>
@@ -76,9 +77,7 @@ passwordGenerate()
             <label>Numbers</label>
             </div>
             <div className='flex items-center gap-x-2'>
-            {/* <input type="checkbox" defaultChecked={charactersAllowed} onChange={(prev)=>{
-                setCharactersAllowed(!prev);
-            }}/> */}
+            
              <input
               type="checkbox"
               defaultChecked={charactersAllowed}
