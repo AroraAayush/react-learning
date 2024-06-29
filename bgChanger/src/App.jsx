@@ -12,9 +12,10 @@ function App() {
   }
   return (
     <>
-    <div className="w-full h-screen" style={{backgroundColor:color}}>    
+    <div className="w-full h-screen" style={{backgroundColor:color}}>
+      <h2 style={{textAlign:'center'}}>BackGround Changer</h2>    
     <div className="box" >
-      <h3>Background Changer</h3>
+      <h3>Color Pallete</h3>
       <button className="btn" id="orange" onClick={changeBackground("orange")}>Orange</button>
       <button className="btn" id="green" onClick={changeBackground("green")}>Green</button>
       <button className="btn" id="blue" onClick={changeBackground("blue")}>Blue</button>
