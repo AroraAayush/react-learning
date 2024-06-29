@@ -1,0 +1,37 @@
+
+.box{
+  width: 550px;
+  margin:  auto;
+  height: 100px;
+  border: 2px solid black;
+  text-align: center;
+  background-color: white;
+}
+
+.btn
+{
+  width: 90px;
+  margin: 24px 5px;
+ border: 1px solid black;
+}
+
+#orange
+{
+  background-color: orange;
+}
+#pink
+{
+  background-color: pink;
+}
+#green
+{
+  background-color: green;
+}
+#blue
+{
+  background-color: blue;
+}
+#red
+{
+  background-color: red;
+}
