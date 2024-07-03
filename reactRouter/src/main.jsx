@@ -15,17 +15,17 @@ import Github ,{githubInfoLoader } from './components/github/Github.jsx'
 //       path:"",element:<Home/>
 //     },
 //     {
-//       path:"/about",element:<About/>
+//       path:"about",element:<About/>
 //     },
 //     {
-//       path:"/contactUs",element:<ContactUs/>
+//       path:"contactUs",element:<ContactUs/>
 //     },
 //     {
-//       path:'/user/:userName',element:<User/>
+//       path:'user/:userName',element:<User/>
 //     },
 //     {
 //       // loader:{githubInfoLoader},
-//       path:'/github',element:<Github/>
+//       path:'github',element:<Github/>
 //     },
 //   ]}
 // ])
@@ -35,9 +35,9 @@ const router=createBrowserRouter(
   createRoutesFromElements(
     <Route path='/' element={<Layout/>}>
       <Route path="" element={<Home/>}/>
-      <Route path="/about" element={<About/>}/>
-      <Route path="/contactUs" element={<ContactUs/>}/>
-      <Route path="/user/:userName" element={<User/>}/>
+      <Route path="about" element={<About/>}/>
+      <Route path="contactUs" element={<ContactUs/>}/>
+      <Route path="user/:userName" element={<User/>}/>
       <Route  loader={githubInfoLoader} path="/github" element={<Github/>}/>
 
     </Route>
