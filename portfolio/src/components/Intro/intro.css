@@ -1,0 +1,74 @@
+#intro
+{
+    /* height: calc(100vh-4rem); */
+    height: calc(100vh - 5rem);
+    width: 100vw;
+    max-width: 75rem;
+    margin: 0px auto;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+
+}
+
+
+#personalimg
+{
+    position: absolute;
+    top:-4rem;
+    right:-3rem;
+    object-fit: cover;
+    z-index: -1;
+    height: 100vh;
+}
+
+
+.introtxt
+{
+    width: 100vw;
+    max-width: 75rem;
+    height: 100vh;
+    padding-left: 2rem;
+    font-size: 3rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+
+}
+
+
+.hello
+{
+    font-size: 1.75rem;
+    font-weight: 200;
+}
+
+.introName
+{
+    color: yellow;
+}
+
+.introPara
+{
+    font-size: medium;
+    font-weight: 200;
+}
+
+
+.btn
+{
+    background-color: white;
+    color:black;
+    border:none;
+    margin-top: 2rem;
+    border-radius: 5rem;
+    padding: 1rem 1rem;
+    font-size: 1rem;
+    font-weight: 300;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}

@@ -1,0 +1,108 @@
+#navbar
+{
+    display: flex ;
+    position:sticky;
+    justify-content: space-between;
+    align-items: center;
+    height: 5rem;
+    width: 100wv;
+    max-width: 75rem;
+    margin: 1rem auto;
+    top:0;
+    z-index:4 ;
+    background-color: #212121;
+    
+    
+}
+
+
+.menuItem
+{
+    margin: 1rem;
+}
+
+#logoid
+{
+    margin-left: 2rem;
+}
+
+#desktopcontactbtn
+{
+    margin-right: 2rem;
+}
+.menuItem:hover
+{
+    color: yellow;
+    font-size: large;
+    padding-bottom: 3px;
+    border-bottom: 3px solid yellow;
+}
+
+.active
+{
+    color: yellow;
+    border-bottom: 1px solid yellow;
+    padding-bottom: 3px;
+}
+
+.mobilemenu
+{
+    position: absolute;
+    top: 5rem;
+    right:-4rem;
+    display: flex;
+    flex-direction: column;
+    z-index: 2;
+    padding: 0.5rem;
+    background: rgb(50,50,50);
+    width: 12rem;
+    text-align: center;
+    margin: 0.5rem;
+    margin-right: 2rem;
+}
+
+#mobMenuIcon
+{
+    height: 2.2rem;
+    width: 3rem;
+    margin-right: 2rem;
+}
+
+
+.mobilemenuItem
+{
+    padding: 0.5rem 1.5rem;
+    border: 1px solid #ffffff;
+    cursor: pointer;
+}
+
+.mobilemenuItem:hover
+{
+    color: yellow;
+    font-size: large;
+    padding-bottom: 3px;
+    border-bottom: 3px solid yellow;
+}
+
+#mobilenav
+    {
+        display: none;
+    }
+
+ 
+@media screen and (max-width:700px) {
+    #mobilenav
+    {
+        display: flex;
+    }
+    #desktopmenu
+    {
+        display: none;
+    }
+    #desktopcontactbtn
+    {
+        display: none;
+    }
+
+
+}

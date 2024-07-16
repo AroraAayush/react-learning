@@ -1,0 +1,53 @@
+#clients
+{
+    overflow:hidden;
+    height: calc(100vh- 5rem);
+    width:100vw;
+    max-width: 65rem;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0rem auto;
+}
+
+
+.clientsText>h2{
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+
+.clientsText>p
+{
+    font-size: 1rem;
+    font-weight: 300;
+    max-width: 50rem;
+    padding: 0 2rem;
+    margin-bottom: 3.5rem;
+}
+
+#companiesList
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    max-width: 60rem;
+}
+
+.companyImg
+{
+    height: 5rem;
+    width: 12rem;
+    /* padding: 2rem;
+    border: 2px solid white; */
+    margin: 1rem 1rem;
+    color: blue;
+    /* background-color: white; */
+}

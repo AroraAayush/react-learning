@@ -1,0 +1,74 @@
+#contact
+{
+    width: 100vw;
+    max-width: 65rem;
+    height: calc(100vh-4rem);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+    text-align: center;
+    margin:auto;
+}
+
+.contactText>h2
+{
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top: 3rem;
+    margin-bottom: 1.5rem; 
+    margin-top: 1.5rem;
+}
+.contactText>p
+{
+    font-size: 1rem;
+    font-weight: 300;
+    max-width: 50rem;
+    padding: 0 2rem;
+    margin-bottom: 3.5rem;
+}
+
+
+
+.inputfield
+{
+    display: block;
+    width: 100vw;
+    max-width: 30rem;
+    margin: 1rem auto;
+    padding: 1rem;
+    border: 1px solid white;
+    border-radius: 0.7rem;
+    background-color: rgb(40, 40,40);
+}
+
+
+.submitbtn
+{
+    background-color: white;
+    color: black;
+    padding: 0.5rem 3rem;
+    border: none;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+#links
+{
+    width: 100vw;
+    max-width: 55rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem auto;
+}
+
+.link
+{
+    object-fit: cover;
+    width: 4rem;
+    height: 4rem;
+    padding: 0.5rem;
+}
